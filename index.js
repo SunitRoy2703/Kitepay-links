@@ -8,7 +8,7 @@ var deeplink = require("forward-deeplink");
 
 app.get("/", async (request, response) => {
   // console.log(string.concat("solana:", request))
-  response.send(await readFile("./home.html", "utf8"));
+  response.send(await readFile("./index.html", "utf8"));
   // response.redirect("solana:" + request.query.url);
   //  console.log("solana:" + request.query.url);
   //  open("http://stackoverflow.com")
